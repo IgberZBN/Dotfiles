@@ -5,26 +5,26 @@ colorRed='\033[0;31m'
 reset='\033[0m'
 
 # Welcome text
-echo "Welcome!!!"
+cat ./assets/welcome.txt
 
 echo
 
-echo -e "${colorRed}Github${reset}: https://github.com/IgberZBN/Dotfiles.git"
-echo -e "${colorRed}Discord${reset}: igber"
+echo -e "${colorRed} Github${reset}: https://github.com/IgberZBN/Dotfiles.git"
+echo -e "${colorRed}󰙯 Discord${reset}: igber"
 
 echo
 
 sleep 2
 
-echo "Choose one of the options:"
-echo "1) Dunst  2) Hyprland  3) Neovim  4) Rofi  5) Waybar  6) Wezterm  7) Zsh"
-echo 
+# Options text
+cat ./assets/options.txt
 
 read -p "Enter the number of the desired option: " option
 
 case $option in
   1)
     echo "Dunst"
+    ./scripts/install_dunst.sh
     ;;
   2)
     echo "Hyprland"
