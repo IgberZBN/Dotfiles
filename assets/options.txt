@@ -1,0 +1,10 @@
+ Choose one of the options: 
+├────────────────────────────── 
+├─ 1) 󰎟 Dunst : Lightweight and customizable notification 
+├─ 2)  Hyprland: A wayland compositor 
+├─ 3)  Neovim: Nvchad config 
+├─ 4)  Rofi : A window switcher, application launcher and dmenu replacement 
+├─ 5)  Waybar : Highly customizable Wayland bar
+├─ 6)  Wezterm : A GPU-accelerated cross-platform terminal emulator 
+├─ 7)  Zsh : Framework for managing your zsh configuration 
+└────────────────────────────── 
