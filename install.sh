@@ -31,6 +31,7 @@ case $option in
     ;;
   3)
     echo "Neovim"
+    ./scripts/install_neovim.sh
     ;;
   4)
     echo "Rofi"
