@@ -38,6 +38,7 @@ case $option in
     ;;
   5)
     echo "Waybar"
+    ./scripts/install_waybar.sh
     ;;
   6)
     echo "Wezterm"
