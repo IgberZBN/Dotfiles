@@ -42,6 +42,7 @@ case $option in
     ;;
   6)
     echo "Wezterm"
+    ./scripts/install_wezterm.sh
     ;;
   7)
     echo "Zsh"
