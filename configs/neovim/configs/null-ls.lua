@@ -16,6 +16,9 @@ local sources = {
 
   -- java
   b.formatting.google_java_format.with { filetypes = { "java" } },
+
+  -- shell
+  b.formatting.shfmt,
 }
 
 null_ls.setup {

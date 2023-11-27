@@ -13,5 +13,22 @@ for _, lsp in ipairs(servers) do
   }
 end
 
---
--- lspconfig.pyright.setup { blabla}
+-- For angular
+
+local install_path = vim.fn.stdpath "data" .. "/mason/packages/angular-language-server/node_modules"
+local ang = install_path .. "/@angular/language-server/node_modules"
+
+local cmd = {
+  "ngserver",
+  "--stdio",
+  "--tsProbeLocations",
+  install_path,
+  "--ngProbeLocations",
+  ang,
+}
+
+lspconfig.angularls.setup {
+  on_new_config = function(new_config, new_root_dir)
+    new_config.cmd = cmd
+  end,
+}
