@@ -2,7 +2,7 @@
 
 ### Install
 
-![Install script](assets/Install.png)
+![Install script](assets/install.png)
 
 ### Terminal
 
