@@ -25,10 +25,10 @@ case $option in
 1)
 	echo "Dunst"
 	./scripts/install_dunst.sh
-
 	;;
 2)
 	echo "Hyprland"
+	./scripts/install_hyprland.sh
 	;;
 3)
 	echo "Neovim"
